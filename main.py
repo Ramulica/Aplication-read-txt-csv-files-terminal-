@@ -14,14 +14,14 @@ def file_extension(file: str) -> str:
 
 def read_txt_file(txt_file: str) -> str:
     """
-    This function reads the file if it's txt and prints the contents of the files
+    This function reads the txt file and prints the contents of the files
     :param txt_file:
     """
 
 
 def read_csv_file(csv_file: str):
     """
-    This function reads the file if it's csv and prints the contents of the files
+    This function reads the csv file and prints the contents of the files
     :param csv_file:
     """
 
@@ -38,5 +38,4 @@ for item in sys.orig_argv[1::]:
             print("")
         else:
             print(f"{item} is neither txt nor csv\n")
-    except FileNotFoundError as e:  # complete with error and what happens if error occurs
-        print(f"A aparut erroare: {e}\n")
+    except  # complete with error and what happens if error occurs
